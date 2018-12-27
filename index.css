@@ -46,3 +46,24 @@ footer {
     height: 60px;
     background: #ccc;
 }
+
+.swiper-slider {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.swiper-slider dl {
+    margin-top: 20px;
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.swiper-slider dl dt img {
+    border-radius: 50%;
+}
