@@ -41,6 +41,34 @@ section {
     height: 50%;
 }
 
+.banner .message {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.message>dl {
+    display: flex;
+    flex-direction: column;
+}
+
+.message>dl>dt {
+    width: 30%;
+    height: 40%;
+}
+
+.message>dl>dt>img {
+    width: 100%;
+    height: 100%;
+}
+
+.message>dl>dd>p {
+    text-align: center;
+}
+
 footer {
     width: 100%;
     height: 60px;
