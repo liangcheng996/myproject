@@ -53,11 +53,13 @@ section {
 .message>dl {
     display: flex;
     flex-direction: column;
+    width: 30%;
+    height: 100%;
 }
 
 .message>dl>dt {
-    width: 30%;
-    height: 40%;
+    width: 100%;
+    height: 60%;
 }
 
 .message>dl>dt>img {
@@ -67,6 +69,7 @@ section {
 
 .message>dl>dd>p {
     text-align: center;
+    margin: 10px 0;
 }
 
 footer {
